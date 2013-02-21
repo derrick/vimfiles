@@ -1,4 +1,13 @@
-""" Custom Command-T mappings
+" NERDTree
+nmap <Leader>d :NERDTreeToggle<CR>
+
+" bind command-/ to toggle comment
+" requires NERD Commenter to be installed
+" nmap <D-/> <Leader>c<space>
+" vmap <D-/> <Leader>c<space>
+" imap <D-/> <C-O><Leader>c<space>
+
+" Command-T
 "let g:CommandTMatchWindowAtTop=1
 "let g:CommandTMaxFiles=50000
 " Open files with <leader>f
@@ -14,7 +23,7 @@
 "map <leader>gp :CommandTFlush<cr>\|:CommandT public<cr>
 "map <leader>gs :CommandTFlush<cr>\|:CommandT public/stylesheets<cr>
 
-""" Trying out ctrlp as a replacement for command-T
+" ctrlp
 let g:ctrlp_map = '<leader>f'
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_match_window_bottom = 0
