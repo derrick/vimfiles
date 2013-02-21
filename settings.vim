@@ -141,3 +141,9 @@ set showtabline=2                          " Always show the tab line
 
 " Use % to jump to matching begin/end of blocks as well as brackets/parens
 runtime macros/matchit.vim
+
+" Use Ack instead of Grep when available
+if executable("ack")
+  set grepprg=ack\ -H\ --nogroup\ --nocolor
+endif
+
