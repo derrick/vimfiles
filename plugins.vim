@@ -28,3 +28,6 @@ let g:ctrlp_map = '<leader>f'
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
+
+" ZoomWin
+map \\ :ZoomWin<cr>

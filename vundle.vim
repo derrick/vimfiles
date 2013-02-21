@@ -7,8 +7,13 @@ call vundle#rc()
 " required! 
 Bundle 'gmarik/vundle'
 
+
+" Plugins
+" ------------------------------------
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/bufexplorer.zip'
+Bundle 'vim-scripts/ZoomWin'
+
