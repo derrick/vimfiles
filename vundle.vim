@@ -17,3 +17,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-scripts/ZoomWin'
 
+
+" Colorschemes
+" ------------------------------------
+Bundle 'nanotech/jellybeans.vim'
