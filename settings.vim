@@ -3,6 +3,8 @@
 let mapleader = ","                        " Define <Leader>
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
+set encoding=utf-8                         " UTF-8 encoding
+set shell=bash                             " Use bash shell
 set hidden                                 " Allow hiding buffers with unsaved changes without warning
 set listchars=tab:\»\ ,trail:·             " Set the invisible characters
 set listchars+=extends:↦,precedes:↤         
