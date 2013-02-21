@@ -27,5 +27,13 @@ if has("autocmd")
 
   augroup END
 
+  " This can get dangerous because saving a bad command
+  " can break your vim, making it hard to undo the error
+  "if has("autocmd")
+    "autocmd BufWritePost .vimrc source $MYVIMRC
+  "endif
+
+  autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+
 endif
 
