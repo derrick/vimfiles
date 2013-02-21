@@ -4,4 +4,5 @@ set nocompatible
 
 source $HOME/.vim/vundle.vim
 source $HOME/.vim/global.vim
+source $HOME/.vim/nerd.vim
 
