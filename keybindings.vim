@@ -1,5 +1,8 @@
 nmap <space> zz                            " Use space to center window in normal mode
 
+" The directory of the current file
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
 " Make search results move to center of screen
 nmap n nzz
 nmap N Nzz
