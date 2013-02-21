@@ -1,6 +1,7 @@
-source $HOME/.vim/vundle.vim
-
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
-filetype off
+
+source $HOME/.vim/vundle.vim
+source $HOME/.vim/global.vim
+
