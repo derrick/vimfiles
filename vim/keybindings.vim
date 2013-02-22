@@ -21,8 +21,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Quick splits
-nmap <leader>v :vsplit<CR> <C-w><C-w>
-nmap <leader>s :split<CR> <C-w><C-w>
+nmap <silent> <leader>v :vsplit<CR><C-w>l
+nmap <silent> <leader>s :split<CR><C-W>j
 
 " Fast and easy window resizing
 nnoremap <silent> + :exe "resize" . (winheight(0) * 3/2)<CR>
