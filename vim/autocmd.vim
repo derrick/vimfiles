@@ -22,3 +22,5 @@ autocmd WinLeave * setlocal nocursorline
 
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
+" Enable spell check by default for git commits
+autocmd FileType gitcommit set spell
