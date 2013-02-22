@@ -6,8 +6,9 @@ filetype plugin indent on                  " Enable automatic filetype detection
 set encoding=utf-8                         " UTF-8 encoding
 set shell=bash                             " Use bash shell
 set hidden                                 " Allow hiding buffers with unsaved changes without warning
+set history=1000                           " Remember more commands and search history
 set listchars=tab:\»\ ,trail:·             " Set the invisible characters
-set listchars+=extends:↦,precedes:↤         
+set listchars+=extends:↦,precedes:↤
 set list                                   " Show invisible characters
 set showcmd                                " Show incomplete cmds down the bottom
 " set showmode                               " Show current mode down the bottom
@@ -146,4 +147,16 @@ runtime macros/matchit.vim
 if executable("ack")
   set grepprg=ack\ -H\ --nogroup\ --nocolor
 endif
+
+
+
+" *****************************************************************************
+" Unknown stuff I found lying around ... what does it mean? *******************
+" *****************************************************************************
+" 
+" Snippets are activated by Shift+Tab
+let g:snippetsEmu_key = "<S-Tab>"
+
+" Tags
+let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 
