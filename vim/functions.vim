@@ -7,7 +7,6 @@ function! HandleURI()
     echo "No URI found in line."
   endif
 endfunction
-"map <Leader>w :call HandleURI()<CR>
 
 command! InsertTime :normal a<c-r>=strftime('%F %H:%M:%S.0 %z')<cr>
 
@@ -21,7 +20,6 @@ function! TwiddleCase(str)
   endif
   return result
 endfunction
-vnoremap ~ ygv"=TwiddleCase(@")<CR>Pgv
 
 function! GreenHerbIngredientList()
   execute ":%s:\\v^((\\u|\\s|\\d|\\%)+(\\u|\\d|\\%))\\s*-\\s*(.*)$:  <dt>\\1</dt>\r  <dd>\\4</dd>:g"
@@ -36,5 +34,4 @@ function! Tab_Or_Complete()
     return "\<Tab>"
   endif
 endfunction
-" inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 

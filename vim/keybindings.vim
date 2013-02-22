@@ -57,6 +57,10 @@ imap <C-l> <Space>=><Space>
 map <Leader>r :!ruby %
 
 
+map <Leader>w :call HandleURI()<CR>
+vnoremap ~ ygv"=TwiddleCase(@")<CR>Pgv
+" inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+
 " *****************************************************************************
 " Unknown stuff I found lying around ... what does it mean? *******************
 " *****************************************************************************
