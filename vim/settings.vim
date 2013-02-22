@@ -23,6 +23,7 @@ set numberwidth=5
 " set nowrap                                 " Dont wrap lines
 set vb t_vb=                               " Turn off bell
 set mouse=                                 " Disable the mouse
+set title                                  " Show title in terminal vim
 " set linespace=3                            " Spacing between lines
 " set noswapfile                             " Disable creation of *.swp files
 " set t_Co=256                               " Support for xterm with 256 colors (gets overriden in .gvimrc)
