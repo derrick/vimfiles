@@ -39,4 +39,4 @@ Bundle 'timcharper/textile.vim'
 Bundle 'clones/vim-nginx'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-rake'
-
+Bundle 'vim-ruby/vim-ruby'
