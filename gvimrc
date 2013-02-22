@@ -3,7 +3,6 @@ if has("gui_running")
   "au GUIEnter * set fullscreen
 
   " Font
-  "set guifont=Monaco:h12.00
   set guifont=Menlo:h14.00
   "set guifont=Inconsolata-dz:h14.00
 
