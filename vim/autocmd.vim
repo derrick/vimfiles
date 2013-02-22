@@ -5,10 +5,6 @@ if has("autocmd")
   au! BufRead,BufNewFile *.haml setfiletype haml
 
 
-  " Put these in an autocmd group, so that we can delete them easily.
-  augroup vimrcEx
-  au!
-
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
 
@@ -24,8 +20,6 @@ if has("autocmd")
 
   autocmd WinEnter * setlocal cursorline
   autocmd WinLeave * setlocal nocursorline
-
-  augroup END
 
   " This can get dangerous because saving a bad command
   " can break your vim, making it hard to undo the error
