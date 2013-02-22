@@ -61,6 +61,11 @@ map <Leader>w :call HandleURI()<CR>
 vnoremap ~ ygv"=TwiddleCase(@")<CR>Pgv
 " inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
+" Mapping to open specific Rails files
+map <leader>gr :topleft :split config/routes.rb<cr>
+map <leader>gg :topleft 100 :split Gemfile<cr>
+map <leader>gR :call ShowRoutes()<cr>
+
 " *****************************************************************************
 " Unknown stuff I found lying around ... what does it mean? *******************
 " *****************************************************************************
