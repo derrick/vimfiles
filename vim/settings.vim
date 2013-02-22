@@ -80,6 +80,7 @@ set switchbuf=useopen                      " Don't re-open already opened buffer
 " MOVING AROUND / EDITING
 "-------------------------------------------------
 " set nostartofline                          " Avoid moving cursor to BOL when jumping around
+"set virtualedit=all                        " Let cursor move past the last char
 set scrolloff=3                            " Keep 3 context lines above and below the cursor
 set backspace=indent,eol,start             " Allow backspacing over autoindent, EOL, and BOL
 " set matchtime=2                            " (for only .2 seconds).
