@@ -16,8 +16,26 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-scripts/ZoomWin'
+Bundle 'mileszs/ack.vim'
+"Bundle 'tpope/vim-surround'
+"Bundle 'tpope/vim-repeat'
+"Bundle 'duff/vim-scratch'
 
 
 " Colorschemes
 " ------------------------------------
 Bundle 'nanotech/jellybeans.vim'
+
+
+" Language/Framework Packages
+" ------------------------------------
+Bundle 'derekwyatt/vim-scala'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-haml'
+Bundle 'nono/vim-handlebars'
+Bundle 'tpope/vim-cucumber'
+Bundle 'timcharper/textile.vim'
+Bundle 'clones/vim-nginx'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-rake'
+
