@@ -9,6 +9,7 @@ set hidden                                 " Allow hiding buffers with unsaved c
 set listchars=tab:\»\ ,trail:·             " Set the invisible characters
 set listchars+=extends:↦,precedes:↤
 set list                                   " Show invisible characters
+set fillchars+=vert:\                      " Hide pipes on vertical splits
 set showcmd                                " Show incomplete cmds down the bottom
 " set showmode                               " Show current mode down the bottom
 set cmdheight=2                            " Make the command line a little taller
