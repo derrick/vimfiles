@@ -1,3 +1,5 @@
+let mapleader = ","                        " Define <Leader>
+
 nmap <space> zz                            " Use space to center window in normal mode
 
 " The directory of the current file

@@ -1,6 +1,5 @@
 " MISC
 "-------------------------------------------------
-let mapleader = ","                        " Define <Leader>
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
 set encoding=utf-8                         " UTF-8 encoding
