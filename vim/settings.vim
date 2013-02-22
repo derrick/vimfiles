@@ -113,17 +113,17 @@ set smartcase                              " Switch to case sensitive mode if ne
 
 " DEFAULT COLOURS FOR VIM - GVIMRC OVERRIDES THIS
 "-------------------------------------------------
-" colorscheme jellybeans-lucas
+ colorscheme jellybeans
 " colorscheme wombat
-colorscheme wombat256mod
+"colorscheme wombat256mod
 "colorscheme vividchalk
 "colorscheme molokai
 "let g:molokai_original = 1
 "colorscheme mustang
 "colorscheme clouds_midnight
-highlight NonText guibg=#060606
-highlight CursorLine guibg=#060606
-highlight Folded  guibg=#0A0A0A guifg=#9090D0
+"highlight NonText guibg=#060606
+"highlight CursorLine guibg=#060606
+"highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 
 " CUSTOM STATUS LINE
