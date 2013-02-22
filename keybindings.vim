@@ -52,3 +52,21 @@ vmap D y'>p
 " Insert a hash rocket
 imap <C-l> <Space>=><Space>
 
+map <Leader>r :!ruby %
+
+
+" *****************************************************************************
+" Unknown stuff I found lying around ... what does it mean? *******************
+" *****************************************************************************
+
+"nmap <leader>w <C-w><C-w>_
+"nnoremap <leader><Space> :%s/\s\+$//<cr>:let @/=''<CR>
+"nnoremap <leader>v V`] Visual Line mode select to the last character of the previously changed or yanked text.
+
+"map <buffer> <silent> <Leader>td <Plug>ToggleDone
+"map <buffer> <silent> <Leader>tc <Plug>ShowContext
+"map <buffer> <silent> <Leader>ta <Plug>ShowAll
+"map <buffer> <silent> <Leader>tp <Plug>FoldAllProjects
+
+"compiler rubyunit
+"nnoremap <Leader>fd :cf /tmp/autotest.txt<cr> :compiler rubyunit<cr>
